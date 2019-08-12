@@ -3,7 +3,7 @@
 [![GitHub Release][ico-release]][link-github-release]
 [![License][ico-license]](LICENSE)
 
-GitHub Actions for [Lua v5.3.5](https://www.lua.org/) and [LuaRocks v2.4.4](https://luarocks.org/). Base on [mileschou/lua](https://hub.docker.com/r/mileschou/lua/) image.
+GitHub Actions for [Lua](https://www.lua.org/) and [LuaRocks v2.4.4](https://luarocks.org/). Base on [mileschou/lua](https://hub.docker.com/r/mileschou/lua/) image.
 
 ## Usage
 

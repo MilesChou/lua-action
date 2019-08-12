@@ -3,7 +3,7 @@
 #
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
-FROM mileschou/lua:5.3
+FROM mileschou/lua:5.1
 
 LABEL repository="https://github.com/MilesChou/lua-action"
 LABEL homepage="https://github.com/MilesChou/lua-action"
