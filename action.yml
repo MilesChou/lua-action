@@ -1,0 +1,8 @@
+name: Lua Action
+description: An action for running project with Lua
+branding:
+  icon: code
+  color: purple
+runs:
+  using: docker
+  image: Dockerfile
