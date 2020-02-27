@@ -1,0 +1,12 @@
+name: Testing
+
+on: [push]
+
+jobs:
+  default:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lua action
+        uses: mileschou/lua-action@master
+        with:
+          args: lua -v

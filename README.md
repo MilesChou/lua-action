@@ -10,10 +10,11 @@ GitHub Actions for [Lua](https://www.lua.org/) and [LuaRocks v2.4.4](https://lua
 Via GitHub Workflow
 
 ```
-action "Run command" {
-  uses = "MilesChou/lua-action@master"
-  args = "lua some.lua"
-}
+steps:
+  - name: Lua action
+    uses: mileschou/lua-action@master
+    with:
+      args: lua -v
 ```
 
 ## Credits
